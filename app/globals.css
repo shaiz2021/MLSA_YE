@@ -3,13 +3,25 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: rgb(208, 208, 218);
+  --background: linear-gradient(
+    90deg,
+    rgba(208, 208, 218, 1) 0%,
+    rgba(0, 163, 196, 1) 50%,
+    rgba(164, 164, 227, 1) 100%
+  );
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: rgb(208, 208, 218);
+    --background: linear-gradient(
+      90deg,
+      rgba(208, 208, 218, 1) 0%,
+      rgba(0, 163, 196, 1) 50%,
+      rgba(164, 164, 227, 1) 100%
+    );
     --foreground: #ededed;
   }
 }
